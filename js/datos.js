@@ -13,6 +13,8 @@ const datos = {
     guiaEstudiante: "https://aulasvirtuales.bue.edu.ar/pluginfile.php/1835484/mod_resource/content/4/Guia%20del%20estudiante%202024.pdf", //OK
     enlaceDrive: "https://drive.google.com/drive/folders/1MEUFP2fb4eVYrzdt-_PRS-Ffamtoh18r", //OK
     enlacePlanEstudios: "https://aulasvirtuales.bue.edu.ar/pluginfile.php/1835490/mod_resource/content/2/Plan%20de%20estudios-%20estudiantes-%20Full%20Stack%20Python%202024.pdf", //OK
+    enlaceAV: "https://aulasvirtuales.bue.edu.ar/login/index.php",
+    titulo: "Links importantes 24170"
 };
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -46,4 +48,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Plan de estudios
     document.getElementById('enlacePlanEstudios').href = datos.enlacePlanEstudios;
 
+    // Aula Virtual
+    document.getElementById('enlaceAV').href = datos.enlaceAV;
+
+    //Titulo
+    document.getElementById('titulo').textContent = datos.titulo;
 });
